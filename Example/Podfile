@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OTAccount_Example' do
+  pod 'OTAccount', :path => '../'
+
+  target 'OTAccount_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_OTAccount_Tests {
+  umbrella header "Pods-OTAccount_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module OTAccount {
+  umbrella header "OTAccount-umbrella.h"
+
+  export *
+  module * { export * }
+}
