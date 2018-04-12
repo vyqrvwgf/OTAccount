@@ -1,0 +1,6 @@
+framework module OTUIKit {
+  umbrella header "OTUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

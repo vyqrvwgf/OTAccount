@@ -1,0 +1,53 @@
+/* 
+  OTEn.strings
+  OpalTrip
+
+  Created by lazy on 2018/2/15.
+  Copyright © 2018年 lazy. All rights reserved.
+*/
+
+// Account
+"language_hans" = "中文";
+"language_en" = "En";
+"login_title" = "OPALTRIP";
+"login_description" = "OpalTrip is suitable for travel agencies, destination management companies or travel companies";
+"login" = "login";
+"email_login" = "Sign up with E-mail";
+"wechat_login" = "Sign up with Wechat";
+
+// login
+"login_login_title" = "Login";
+"login_mobile_placeholder"= "Mobile Phone";
+"login_password_placeholder" = "Password";
+"login_remember" = "remember me";
+"login_forget" = "forget password?";
+"login_tips" = "or login with";
+"login_register" = "Create an account";
+
+// register
+"register_name" = "Name";
+"register_country" = "Country";
+"register_city" = "City";
+"register_email" = "Email";
+"register_mobile" = "Mobile";
+"register_password" = "Password";
+"register_repeat" = "Repeat Password";
+"register_detail_title" = "Sign Up";
+"register" = "Sign Up";
+"register_terms" = "By clicking \"Sign Up\" you agree to our Terms and Conditions";
+
+// validation
+"create_regex_failure" = "create_regex_failure";
+"mobile_length_too_short" = "Mobile phone number length too short";
+"mobile_validate_failure" = "Please enter legal mobile phone number";
+"mobile_validate_success" = "Mobile phone number validation success";
+"mobile_empty" = "Please enter your mobile phone number";
+"password_length_too_short" = "Password length is too short";
+"password_empty" = "Please enter password";
+"password_validate_failure" = "Ensure that you enter a legal password";
+"password_validate_success" = "Password validation success";
+"repeat_password_length_too_short" = "Repeat password length too short";
+"repeat_password_not_equal_to_password" = "Repeat password not equal to password";
+"repeat_password_validate_success" = "Repeat password validation success";
+"mail_validate_success" = "Mail validation success";
+"mail_validate_failure" = "Please enter legal mail";

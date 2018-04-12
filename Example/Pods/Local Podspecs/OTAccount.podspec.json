@@ -18,5 +18,34 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "OTAccount/Classes/**/*"
+  "source_files": "OTAccount/Classes/**/*",
+  "dependencies": {
+    "RxSwift": [
+
+    ],
+    "RxCocoa": [
+
+    ],
+    "Moya": [
+
+    ],
+    "Moya/RxSwift": [
+
+    ],
+    "OTUIKit": [
+
+    ],
+    "OTExtension": [
+
+    ],
+    "OTMacro": [
+
+    ],
+    "OTBaseModular": [
+
+    ],
+    "OTRoute": [
+
+    ]
+  }
 }

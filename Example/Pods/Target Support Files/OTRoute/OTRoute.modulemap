@@ -1,0 +1,6 @@
+framework module OTRoute {
+  umbrella header "OTRoute-umbrella.h"
+
+  export *
+  module * { export * }
+}

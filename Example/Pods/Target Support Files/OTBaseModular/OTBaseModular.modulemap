@@ -1,0 +1,6 @@
+framework module OTBaseModular {
+  umbrella header "OTBaseModular-umbrella.h"
+
+  export *
+  module * { export * }
+}

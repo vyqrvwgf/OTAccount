@@ -1,0 +1,6 @@
+framework module OTMacro {
+  umbrella header "OTMacro-umbrella.h"
+
+  export *
+  module * { export * }
+}

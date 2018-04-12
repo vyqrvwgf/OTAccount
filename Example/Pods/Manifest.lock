@@ -1,5 +1,36 @@
 PODS:
-  - OTAccount (0.1.0)
+  - Alamofire (4.7.1)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (11.0.2):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - OTAccount (0.1.0):
+    - Moya
+    - Moya/RxSwift
+    - OTBaseModular
+    - OTExtension
+    - OTMacro
+    - OTRoute
+    - OTUIKit
+    - RxCocoa
+    - RxSwift
+  - OTBaseModular (0.1.4)
+  - OTExtension (0.2.0):
+    - OTMacro
+  - OTMacro (0.1.2)
+  - OTRoute (0.1.1)
+  - OTUIKit (0.1.8):
+    - OTExtension
+    - SnapKit
+  - Result (3.2.4)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - OTAccount (from `../`)
@@ -9,7 +40,18 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OTAccount: 7f708861eefe07fc167d6d44ecba36171f57abc3
+  Alamofire: 68d7d521118d49c615a8d2214d87cdf525599d30
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  OTAccount: 4029ab71f77b313c31fcde2e90ce2da354292550
+  OTBaseModular: ccb7dfb17051072260cc4d93defd8563920976bb
+  OTExtension: 8d044df139af5657a3e0b39d4644993d15bfddf0
+  OTMacro: 98554f0b7f8b776f7bc51a08f1ada2d9374b6355
+  OTRoute: f749e65298e2d2b718bd7c8aae855f969ab863aa
+  OTUIKit: 2094a76daa30b3a055fc2a7844307590f4a04a92
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
 PODFILE CHECKSUM: 7f99cd389f6e45d15ac857059e6036a8074ba60f
 
